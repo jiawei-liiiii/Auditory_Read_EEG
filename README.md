@@ -11,6 +11,7 @@ You can clone this repository to your local machine using the following SSH comm
 ```bash
 git clone git@github.com:jiawei-liiiii/Auditory_read_EEG.git
 
+---
 
 ### Setting up the Analysis Environment
 
