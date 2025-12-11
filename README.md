@@ -10,6 +10,7 @@ You can clone this repository to your local machine using the following SSH comm
 
 ```bash
 git clone git@github.com:jiawei-liiiii/Auditory_read_EEG.git
+```
 
 ---
 
@@ -28,6 +29,7 @@ To create and activate the required Conda environment, run the following command
 ```bash
 conda env create -f environment.yml
 conda activate Auditory_read_EEG # Or whatever name is in your environment.yml
+```
 
 ### Data Download
 
