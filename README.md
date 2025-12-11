@@ -12,13 +12,11 @@ You can clone this repository to your local machine using the following SSH comm
 git clone git@github.com:jiawei-liiiii/Auditory_read_EEG.git
 ```
 
----
 
 ### Setting up the Analysis Environment
 
 This guide details the steps to set up the necessary environment, download data, and execute the analysis scripts.
 
----
 
 ###  Environment Setup
 
@@ -36,7 +34,7 @@ conda activate Auditory_read_EEG # Or whatever name is in your environment.yml
 > **Important:** Before running the analysis scripts, please download the necessary data from **https://openneuro.org/git/0/ds007058** and place it in the appropriate directory structure as expected by the scripts.
 
 
-### 💻 Analysis Steps
+### Analysis Steps
 
 The analyses are divided into sequential steps, each corresponding to a specific Python script.
 
