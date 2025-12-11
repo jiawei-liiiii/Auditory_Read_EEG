@@ -1,4 +1,4 @@
-name: reading_EEG
+name: Auditory_read_EEG
 channels:
   - conda-forge
   - defaults

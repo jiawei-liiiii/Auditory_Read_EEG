@@ -27,12 +27,12 @@ To create and activate the required Conda environment, run the following command
 
 ```bash
 conda env create -f environment.yml
-conda activate Auditory_read_EEG # Or whatever name is in your environment.yml
+conda activate Auditory_read_EEG 
 ```
 
 ### Data Download
 
-> **Important:** Before running the analysis scripts, please download the necessary data from **https://openneuro.org/git/0/ds007058** and place it in the appropriate directory structure as expected by the scripts.
+> **Important:** Before running the analysis scripts, please download the necessary data from **https://openneuro.org/git/0/ds007058**. The specific data used for this code is located in the `./derivatives` subdirectory of that dataset.
 
 
 ### Analysis Steps
@@ -42,5 +42,5 @@ The analyses are divided into sequential steps, each corresponding to a specific
 | Step | Analysis Description | Script File Name |
 | :--- | :--- | :--- |
 | 1 | Auditory, Visual, and Semantic Encoding | `S1_encoding.py` |
-| 2 | Time-Resolved Auditory Features Encoding | `S2_time_resolved_encoding` |
+| 2 | Time-Resolved Auditory Features Encoding | `S2_time_resolved_encoding.py` |
 | 3 | Expected and Unexpected Encoding Models | `S3_expectation_encoding.py` |
