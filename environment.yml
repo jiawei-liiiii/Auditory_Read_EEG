@@ -1,0 +1,42 @@
+name: reading_EEG
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - ffmpeg          
+  - pip
+  - pip:
+      # --- Neuroscience & Neuroimaging  ---
+      - mne
+      - mne-qt-browser  # For the interactive 2D browser
+      - nilearn         # Neuroimaging statistics
+      - dipy            # Diffusion MRI / Structural
+      - nibabel         # Read/write neuro formats
+      - snirf           # fNIRS support
+      - openmeeg        # Head modeling
+      - pybv            # BrainVision format support
+      
+      # --- Deep Learning (PyTorch) ---
+      - torch
+      - torchaudio
+
+      # --- Scientific Stack ---
+      - pandas
+      - scikit-learn
+      - statsmodels
+      - scipy
+      - librosa         # Audio analysis
+      - pingouin        # Statistical package often used with MNE
+
+      # --- Visualization & GUI ---
+      - matplotlib
+      - seaborn
+      - pyqt6           # The backend you are using
+      - pyvistaqt       # Required for 3D brain plotting
+      - vtk
+
+      # --- Interactive Tools ---
+      - jupyterlab
+      - ipywidgets
+      - pdfkit
