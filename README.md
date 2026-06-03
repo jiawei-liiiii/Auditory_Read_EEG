@@ -43,4 +43,3 @@ The analyses are divided into sequential steps, each corresponding to a specific
 | :--- | :--- | :--- |
 | 1 | Auditory, Visual, and Semantic Encoding | `S1_encoding.py` |
 | 2 | Time-Resolved Auditory Features Encoding | `S2_time_resolved_encoding.py` |
-| 3 | Expected and Unexpected Encoding Models | `S3_expectation_encoding.py` |
