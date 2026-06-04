@@ -1,7 +1,7 @@
 # Auditory representations of words during silent visual reading
 
 This repository contains the code and environment required to reproduce the analyses presented in the manuscript: 
-"Auditory representations of words during silent visual reading".
+"Auditory representations of words during silent visual reading". https://www.biorxiv.org/content/10.64898/2025.12.12.693932v1
 
 ## Getting Started
 
