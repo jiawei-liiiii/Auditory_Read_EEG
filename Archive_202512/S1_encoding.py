@@ -9,7 +9,7 @@ from scipy.stats import pearsonr
 from pingouin import partial_corr
 import matplotlib.pyplot as plt
 
-# ========== Config & Constants ==========
+# ========== Config & Constants ===========
 EMBED_DIM = 50
 N_TIMES = 161
 STEP = 1

@@ -12,12 +12,12 @@ from pingouin import partial_corr
 import warnings
 warnings.filterwarnings('ignore')
 
-# ===== Config & Constants =====
-N_TIMES = 820
-STEP = 5
+# ========== Config & Constants ==========
+EMBED_DIM = 50
+N_TIMES = 161
+STEP = 1
 N_LAG = 161
 N_FOLDS = 10
-RANDOM_SEED = 42
 
 # ========== Subject Info ==========
 iSub = 1001 # 1001-1010
@@ -183,7 +183,7 @@ for hop_ms in hop_configs:
         scaler_acoustic = StandardScaler()
         acoustic_timebin_scaled = scaler_acoustic.fit_transform(acoustic_timebin)
         
-        for iLag, t in enumerate(range(20, N_TIMES, STEP)):
+        for iLag, t in enumerate(range(0, N_TIMES, STEP)):
             if t >= neural_data_masked.shape[1]:
                 break
                 

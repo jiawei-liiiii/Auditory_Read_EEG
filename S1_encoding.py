@@ -11,9 +11,9 @@ import matplotlib.pyplot as plt
 
 # ========== Config & Constants ==========
 EMBED_DIM = 50
-N_TIMES = 820
-STEP = 5          # 5 timepoints per lag step
-N_LAG = 161       # range(20, 825, 5) -> 161 lags; assumes 40 Hz -> each step = 125 ms
+N_TIMES = 161
+STEP = 1
+N_LAG = 161
 N_FOLDS = 10
 
 # ========== Subject Info ==========
@@ -148,7 +148,7 @@ corr_results = {key: np.zeros((N_LAG, N_FOLDS)) for key in [
 ]}
 
 # ========== Main Loop ==========
-for iLag, t in enumerate(range(20, N_TIMES + STEP, STEP)):
+for iLag, t in enumerate(range(0, N_TIMES + STEP, STEP)):
     print(f"Time lag {iLag}, neural timepoint {t}")
     y_all = neural_data[:, t]
     y_target = y_all[mask]
