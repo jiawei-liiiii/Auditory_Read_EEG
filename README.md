@@ -32,7 +32,7 @@ conda activate Auditory_read_EEG
 
 ### Data Download
 
-> **Important:** Before running the analysis scripts, please download the necessary data from **https://openneuro.org/git/0/ds007058**. The specific data used for this code is located in the `./derivatives` subdirectory of that dataset.
+> **Important:** Before running the analysis scripts, please download the necessary data from **doi:10.18112/openneuro.ds007058**. The specific data used for this code is located in the `./derivatives` subdirectory of that dataset.
 
 
 ### Analysis Steps
