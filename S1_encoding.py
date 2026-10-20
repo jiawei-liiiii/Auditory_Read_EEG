@@ -1,8 +1,5 @@
 """
-Per-timepoint encoding / variance partitioning (CPU demo version).
-
-Partial correlations (each unique part controls for everything else;
-visual events (EVT) are always part of the control set, never a target):
+Partial correlations
   - partial_corr_S : semantic (GPT)  | all except GPT   
   - partial_corr_A : auditory (Mel)  | all except Mel    
   - partial_corr_V : visual (CORnet) | all except CORnet 
